@@ -1,12 +1,8 @@
 import React from 'react'
-
+import PortfolioPage from './pages/PortfolioPage/PortfolioPage'
 const App = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-800">
-      <h1 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">
-        Portfolio Page
-      </h1>
-    </div>
+    <PortfolioPage />
   )
 }
 
